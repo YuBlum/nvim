@@ -18,3 +18,9 @@ set.expandtab  = true
 set.smarttab   = true
 set.shiftwidth = 2
 set.tabstop    = 2
+
+-- line numbers
+set.relativenumber = true
+set.number         = true
+
+set.mouse=""
