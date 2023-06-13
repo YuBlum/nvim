@@ -109,6 +109,21 @@ _G.packer_plugins = {
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/colorschemes",
     url = "https://github.com/YuBlum/colorschemes"
   },
+  ["jellybeans-nvim"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/jellybeans-nvim",
+    url = "https://github.com/metalelf0/jellybeans-nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
+  minilab = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/minilab",
+    url = "https://github.com/YuBlum/minilab"
+  },
   ["netrw.nvim"] = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/netrw.nvim",
@@ -118,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -129,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -139,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -148,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
   }
 }
 

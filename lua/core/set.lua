@@ -1,8 +1,9 @@
 local set = vim.o
 
-set.lazyredraw  = true --> doesn't redraw when running a macro
-set.wildmenu    = true --> better command-line completion
-set.smartindent = true --> smart indentation
+set.lazyredraw    = true --> doesn't redraw when running a macro
+set.wildmenu      = true --> better command-line completion
+set.smartindent   = true --> smart indentation
+set.termguicolors = true --> terminal uses gui colors
 
 -- case sensitivity on search mode
 set.ignorecase = true

@@ -10,6 +10,7 @@ keymap("n", "<leader>nh", ":noh<CR>")                 --> no highlight
 keymap("n", "<leader>so", ":so %<CR>")                --> source
 keymap("n", "<leader>sp", ":so %<CR>:PackerSync<CR>") --> sync packer
 keymap("n", "<leader>qq", ":q<CR>")                   --> quit
+keymap("n", "<C-W>m", ":MaximizerToggle<CR>")         --> maximize split
 
 -- netrw
 keymap("n", "<leader>ex", ":Ex<CR>")
@@ -47,3 +48,7 @@ local telescope_builtin = require("telescope.builtin")
 local telescope_ivy     = require("telescope.themes").get_ivy
 keymap("n", "<leader>f", function() telescope_builtin.find_files(telescope_ivy({ layout_config = { height = 0.5 } })) end)
 keymap("n", "<leader>g", function() telescope_builtin.live_grep( telescope_ivy({ layout_config = { height = 0.5 } })) end)
+
+-- makefile
+keymap("n", "<leader>m", ":make<CR>")
+keymap("n", "<leader>r", ":make run<CR>")

@@ -35,6 +35,13 @@ packer.startup(function(use)
   use "L3MON4D3/LuaSnip"
   use "vim-airline/vim-airline"
   use "YuBlum/colorschemes"
-  use 'prichrd/netrw.nvim'
+  use "YuBlum/minilab"
+  use "nvim-tree/nvim-web-devicons"
+  use "prichrd/netrw.nvim"
+  use "norcalli/nvim-colorizer.lua"
+  use "rktjmp/lush.nvim"
+  use "metalelf0/jellybeans-nvim"
+  use "andweeb/presence.nvim"
+  use "szw/vim-maximizer"
   if packer_bootstrap then packer.sync() end
 end)

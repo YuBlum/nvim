@@ -1,4 +1,4 @@
 require("core.set")
 require("core.keymap")
 require("core.plugins")
-vim.cmd.colorscheme("simpler")
+vim.cmd.colorscheme("jellybeans-nvim")
