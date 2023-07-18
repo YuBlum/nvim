@@ -16,7 +16,8 @@ end
 -- C
 lsp.clangd.setup{
   capabilities = capabilities,
-  on_attach = on_attach
+  on_attach = on_attach,
+  filetypes = { 'c', 'cpp', 'objcpp', 'objc', 'cuda', 'proto' }
 }
 
 -- Lua

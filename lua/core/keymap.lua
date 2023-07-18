@@ -11,10 +11,7 @@ keymap("n", "<leader>so", ":so %<CR>")                --> source
 keymap("n", "<leader>sp", ":so %<CR>:PackerSync<CR>") --> sync packer
 keymap("n", "<leader>qq", ":q<CR>")                   --> quit
 keymap("n", "<C-W>m", ":MaximizerToggle<CR>")         --> maximize split
-
--- netrw
-keymap("n", "<leader>ex", ":Ex<CR>")
-keymap("n", "<leader>ev", "<C-W>v<C-W>20<:Ex<CR>")
+keymap("n", "<leader>ex", ":Ex<CR>")                   --> netrw
 
 -- some templates
 keymap("n", "<leader>c", ":r~/.config/nvim/templates/main.c<CR>k\"_dd5jl")
@@ -40,7 +37,8 @@ keymap("n", "<leader>bd", ":bdelete<CR>")
 keymap("n", "<tab>", "<C-6>") --> swap between previous and current buffer
 
 -- terminal related
-keymap("n", "<leader>t", "<C-W>s<C-W>2+<C-W>j:te<CR>i")
+local open_terminal = "<C-W>s<C-W>2+<C-W>j:te<CR>i"
+keymap("n", "<leader>t", open_terminal)
 keymap("t", "<leader>q", "<C-\\><C-N>:q<CR>")
 
 -- telescope
@@ -50,5 +48,7 @@ keymap("n", "<leader>f", function() telescope_builtin.find_files(telescope_ivy({
 keymap("n", "<leader>g", function() telescope_builtin.live_grep( telescope_ivy({ layout_config = { height = 0.5 } })) end)
 
 -- makefile
-keymap("n", "<leader>m", ":make<CR>")
-keymap("n", "<leader>r", ":make run<CR>")
+keymap("n", "<leader>mm", ":make<CR>")
+keymap("n", "<leader>mb", ":!bear -- make<CR>")
+keymap("n", "<leader>md", open_terminal .. "doas make<CR>")
+keymap("n", "<leader>mr", ":make run<CR>")
