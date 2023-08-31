@@ -11,7 +11,7 @@ keymap("n", "<leader>so", ":so %<CR>")                --> source
 keymap("n", "<leader>sp", ":so %<CR>:PackerSync<CR>") --> sync packer
 keymap("n", "<leader>qq", ":q<CR>")                   --> quit
 keymap("n", "<C-W>m", ":MaximizerToggle<CR>")         --> maximize split
-keymap("n", "<leader>ex", ":Ex<CR>")                   --> netrw
+--keymap("n", "<leader>ex", ":Ex<CR>")                  --> netrw
 
 -- some templates
 keymap("n", "<leader>c", ":r~/.config/nvim/templates/main.c<CR>k\"_dd5jl")
@@ -52,3 +52,7 @@ keymap("n", "<leader>mm", ":make<CR>")
 keymap("n", "<leader>mb", ":!bear -- make<CR>")
 keymap("n", "<leader>md", open_terminal .. "doas make<CR>")
 keymap("n", "<leader>mr", ":make run<CR>")
+
+-- ranger
+vim.g.ranger_map_keys = 0
+keymap("n", "<leader>e", ":Ranger<CR>")

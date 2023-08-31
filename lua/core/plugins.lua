@@ -43,5 +43,7 @@ packer.startup(function(use)
   use "metalelf0/jellybeans-nvim"
   use "andweeb/presence.nvim"
   use "szw/vim-maximizer"
+  use "rbgrouleff/bclose.vim"
+  use "francoiscabrol/ranger.vim"
   if packer_bootstrap then packer.sync() end
 end)

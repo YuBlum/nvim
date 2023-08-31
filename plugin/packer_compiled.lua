@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bclose.vim"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/bclose.vim",
+    url = "https://github.com/rbgrouleff/bclose.vim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -168,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/blum/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  ["ranger.vim"] = {
+    loaded = true,
+    path = "/home/blum/.local/share/nvim/site/pack/packer/start/ranger.vim",
+    url = "https://github.com/francoiscabrol/ranger.vim"
   },
   ["telescope.nvim"] = {
     loaded = true,

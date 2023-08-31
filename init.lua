@@ -6,3 +6,4 @@ vim.cmd([[
     autocmd BufRead,BufNewFile *.h setlocal filetype=c
   augroup END
 ]])
+
